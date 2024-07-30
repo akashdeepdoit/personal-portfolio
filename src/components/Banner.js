@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImgReact from "../assets/img/react-logo.svg";  // Replace with the correct path
 import headerImgNode from "../assets/img/node-logo.svg";    // Replace with the correct path
-import headerImgExpress from "../assets/img/express-logo.png"; // Replace with the correct path
-import headerImgMongoDB from "../assets/img/mongodb-logo.png"; // Replace with the correct path
+import headerImgExpress from "../assets/img/express-logo.svg"; // Replace with the correct path
+import headerImgMongoDB from "../assets/img/mongo-logo.svg"; // Replace with the correct path
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -33,7 +33,7 @@ export const Banner = () => {
     const imgTicker = setInterval(() => {
       setCurrentImg(logos[(loopNum + 1) % logos.length]);
       setLoopNum((prev) => (prev + 1) % logos.length);
-    }, 3000); // Change image every 3 seconds
+    }, 1500); // Change image every 3 seconds
 
     return () => clearInterval(imgTicker);
   }, [loopNum]);

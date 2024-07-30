@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/Cryptodashboard.png";
 import projImg2 from "../assets/img/internshala.png"
-import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/polyglot.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -25,11 +25,11 @@ export const Projects = () => {
       repoLink: "https://github.com/akashdeepdoit/Automation_Hackathon_Internshala-master"
     },
     {
-      title: "Cryptocurrency Dashboard",
-      description: "A dashboard to track cryptocurrency prices and trends.",
-      techStack: "React, Node.js, Express.js, MongoDB",
+      title: "PolyglotCode",
+      description: "A tool for converting code between different programming languages.",
+      techStack: "React, Node.js, Express.js",
       imgUrl: projImg3,
-      repoLink: "https://github.com/yourusername/cryptocurrency-dashboard"
+      repoLink: "https://github.com/akashdeepdoit/PolyglotCode"
     },
     {
       title: "Internshala Automation",
