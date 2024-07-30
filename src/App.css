@@ -616,3 +616,91 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+.project {
+  padding: 60px 0;
+}
+
+.project h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project p {
+  text-align: center;
+  margin-bottom: 40px;
+  width: fit-content;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+
+.project-card {
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%; /* Ensure full width */
+  max-width: 500px; /* Add max-width to limit card width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.project-image {
+  width: 800px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+}
+
+.project-info h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.project-info p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #424547;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white; /* Changed text color to white for better contrast */
+}
+
+.project-row {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin: 0;
+}
+
+.project-col {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (if needed) */
+}
+
+.background-image-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  opacity: 0.2;
+}
